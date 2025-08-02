@@ -3,12 +3,12 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import Card from './cards.jsx'
+import Colors from './color_footer.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
 
-    <Card  channel="zain"/>
-    <Card />
+   <Colors />
 
   </StrictMode>,
 )

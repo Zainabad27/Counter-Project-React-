@@ -1,15 +1,22 @@
 @import "tailwindcss";
-  /*
-  
-  understanding css
 
-  
-  */
 
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: black;
+  /* background-color: black; */
+}
+
+body {
+  height: 100vh; 
+  background-image: url('https://media.istockphoto.com/id/483424683/photo/euro-and-dollar-symbol-eur-usd-pair.jpg?s=612x612&w=0&k=20&c=sxpJ59whk1IQbv2O22UE0zYEmZ9zZA76-iJBsrsAa_I=');
+
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+  
+  background-position: center;
+
 }

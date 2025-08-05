@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
+
   let [counter, setCounter] = useState(10);
 
   const addvalue = () => {
